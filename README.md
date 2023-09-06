@@ -3,8 +3,8 @@
 This project is an implementation of the image colorization algorithm from the [Deep Koalarization: Image Colorization using CNNs and Inception-Resnet-v2](https://arxiv.org/pdf/1712.03400.pdf) paper by Federico Baldassarre, Diego Gonzalez Morin∗∗, Lucas Rodés-Guirao.
 
 <div style="display: flex; justify-content: space-between;">
-  <img src="sample_images/uncolored.jpeg" alt="Image 1" width="35%">
-  <img src="sample_images/colored.jpeg" alt="Image 2" width="35%">
+  <img src="sample_images/uncolored.jpg" alt="Image 1" width="30%">
+  <img src="sample_images/colored.jpeg" alt="Image 2" width="30%">
 </div>
 
 The algorithm consists of an Autoencoder trained from scratch and connected in parallel to a pre-trained Inception-ResNet-v2 model.
